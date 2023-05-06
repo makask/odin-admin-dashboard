@@ -39,10 +39,24 @@
     margin-bottom: 40px;
 }
 
+.dashboard-item-big>a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #241919;
+    font-weight: bolder;
+}
+
 .dashboard-item-small {
     display: flex;
     align-items: center;
     padding: 10px;
+}
+
+.dashboard-item-small>a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #241919;
+    font-weight: bolder;
 }
 
 .icon-small {
@@ -92,14 +106,73 @@
 
 .avatar {
     grid-area: 2 / 1 / 5 / 3;
+    display: flex;
+    padding-left: 40px;
+}
+
+.avatar>img {
+    height: 80px;
+    border-radius: 50%;
+}
+
+.avatar-greeting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.hi {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.name {
+    font-size: 32px;
+    font-weight: bolder;
 }
 
 .right-upper {
     grid-area: 1 / 3 / 2 / 4;
+    display: flex;  
+    align-items: center;  
+}
+
+.bell-icon {
+    height: 30px;
+    margin-left: 30px;
+}
+
+.avatar-small {
+    height: 50px;
+    border-radius: 50%; 
+    margin-left: 30px;
+}
+
+.name-small {
+    text-decoration: none;
+    color:#241919;
+    margin-left: 40px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .right-lower {
     grid-area: 2 / 3 / 5 / 4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-header {
+    height: 2.5rem;
+    width: 6.5rem;
+    border: none;
+    color:white;
+    background-color: #1992d4;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 25px;
 }
 
 .projects {
