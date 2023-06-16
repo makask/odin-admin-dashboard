@@ -1,7 +1,7 @@
 # odin-admin-dashboard
 
 Web design layout exercise provided by Project Odin. The design of this page is provided by project odin and the 
-main task is to achieve a result as similar as possible to the given design using html, css and javascript.
+main task is to achieve a result as similar as possible to the given design using html and css.
 The main purpose of this task was to use the css grid to achieve as similar a goal as possible to the given design.
 
 Page is not responsive.
